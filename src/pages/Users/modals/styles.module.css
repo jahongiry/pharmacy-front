@@ -1,0 +1,46 @@
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    color: hsla(0, 0%, 0%, 0.45);
+}
+
+.input {
+    width: 328px;
+    border-radius: 2px;
+}
+
+.line {
+    width: 106%;
+    height: 1px;
+    background: hsla(0, 0%, 86%, 1);
+    box-shadow: 0px 1px 0px 0px hsla(0, 0%, 94%, 1) inset;
+    margin-top: 16px;
+    margin-left: -20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons span {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+

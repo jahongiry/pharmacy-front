@@ -1,0 +1,50 @@
+.collectionDescInner {
+    width: 100%;
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.collectionDesc {
+    max-width: 760px;
+    max-height: 40px;
+    overflow-y: hidden;
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #e5e8eb;
+    white-space: pre-wrap;
+}
+
+.collectionDesc.full {
+    max-height: unset;
+}
+
+.collectionDescFull {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e5e8eb;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 133%;
+    cursor: pointer;
+}
+
+.collectionDescFullIcon {
+    width: 10px;
+    transform: rotate(180deg);
+    position: relative;
+    top: 1px;
+    opacity: 0.8;
+}
+
+.collectionDescFullIcon.full {
+    transform: rotate(0);
+}
+
+.descLink{
+    word-break: break-all;
+    color: rgb(96, 96, 244);
+}

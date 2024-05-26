@@ -1,0 +1,41 @@
+.ant-picker-calendar-mode-switch {
+    display: none !important;
+}
+
+.input {
+    width: 256px;
+    border: 1px solid hsla(0, 0%, 86%, 1);
+    border-radius: 2px;
+    position: relative;
+    height: 40px;
+    cursor: pointer;
+}
+
+.input img {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.calendarBox {
+    position: absolute;
+    box-shadow: 0px 2px 16px 0px hsla(0, 0%, 0%, 0.15);
+    background: white;
+    top: 50px;
+    z-index: 1;
+    width: 280px;
+    padding: 10px;
+}
+
+.triangle {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid hsla(0, 0%, 100%, 1);
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    transform: translateY(-50%) rotate(180deg);
+}

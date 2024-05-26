@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: hsla(220, 100%, 97%, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+section {
+    padding: 0 24px;
+    margin-top: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 14px;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: currentColor;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input, select {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-modal .ant-modal-content {
+    padding: 44px 10px 0 20px;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-picker-outlined  {
+    border-radius: 2px !important;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 2px !important;
+}

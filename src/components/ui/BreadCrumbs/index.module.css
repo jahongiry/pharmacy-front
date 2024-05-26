@@ -1,0 +1,18 @@
+.block {
+    display: flex;
+}
+
+.linkItem {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+.linkItem span {
+    margin: 0 5px;
+}

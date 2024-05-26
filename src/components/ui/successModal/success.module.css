@@ -1,0 +1,34 @@
+.modal {
+    position: fixed;
+    top: 50px;
+    right: -100%;
+    width: 357px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: white;
+    animation: slideFromRight 1s forwards;
+    z-index: 2000;
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 0%, 0.15);
+}
+
+
+@keyframes slideFromRight {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 20px;
+    }
+}
+
+.text {
+    margin-top: 16px;
+    max-width: 305px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}

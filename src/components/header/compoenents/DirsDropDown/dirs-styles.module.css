@@ -1,0 +1,16 @@
+.item {
+    padding: 5px 12px;
+    cursor: pointer;
+    height: 32px;
+    line-height: 22px;
+}
+
+.item:hover {
+    background: hsla(220, 100%, 97%, 1);
+}
+
+.list {
+    z-index: 1;
+    width: 177px;
+    background: white;
+}

@@ -1,0 +1,18 @@
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    color: hsla(0, 0%, 0%, 0.45);
+}
+
+.input {
+    width: 500px;
+    border-radius: 2px !important;
+}
+
+.textArea {
+    width: 500px;
+    border-radius: 2px;
+    height: 135px;
+}

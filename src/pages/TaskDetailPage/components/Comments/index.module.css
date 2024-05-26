@@ -1,0 +1,41 @@
+.wrapper {
+    background: white;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: hsla(209, 84%, 40%, 1);
+}
+
+.textComment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: hsla(209, 84%, 40%, 1);
+    margin-top: 4px;
+}
+
+.replyEl {
+
+}

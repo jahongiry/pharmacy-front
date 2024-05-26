@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 128px;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.title {
+  color: hsla(209, 84%, 40%, 1);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.titleLight {
+  color: hsla(209, 84%, 40%, 1);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.text {
+  color: hsla(0, 0%, 0%, 0.45);
+  font-size: 14px;
+  margin-top: -20px;
+  white-space: nowrap;
+}
